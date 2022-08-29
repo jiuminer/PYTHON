@@ -113,6 +113,15 @@ myDB.commit()
 myDB.close() /*Cerrando conexion a BD**/  
 
 
+13. Borra Base de Datos
+
+sql = myDB.cursor()
+/*DROP DATABASE ejemplo;*/
+query ="DROP DATABASE IF EXISTS ejemplo;"
+sql.execute(query)
+myDB.commit()
+myDB.close() /*Cerrando conexion a BD**/  
+
 👉 Nota: 😀 
 De esta forma existen muchas consultas o SQL
 que se pueden ejecutar desde Python facilmente.

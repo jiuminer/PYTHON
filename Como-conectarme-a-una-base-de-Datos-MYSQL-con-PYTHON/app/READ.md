@@ -22,4 +22,12 @@
 9. Para ejecutar el codigo, primero ejecutamos cd app/ 
     luego python app.py  o ejecutando flask run
 
+
+En Python, podemos usar los siguientes módulos para comunicarnos con MySQL.
+1  MySQL Connector Python
+2  PyMySQL
+3  MySQLDB ::IMPORTANTE, Recomiendo no usar este Modulo  flask_mysqldb
+4  MySqlClient
+5  OurSQL
+
 Conection_Python_con_mysql-connector-python
