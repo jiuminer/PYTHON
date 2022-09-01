@@ -30,4 +30,4 @@ En Python, podemos usar los siguientes módulos para comunicarnos con MySQL.
 4  MySqlClient
 5  OurSQL
 
-Conection_Python_con_mysql-connector-python
+

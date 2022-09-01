@@ -59,7 +59,7 @@
             {% if data %}
                 <ol>
                     {% for empleado in data %}
-                        <li>{{ empleado.nombre }} </li>
+                        <li>{{ empleado.nombre }} - {{ empleado.email }} </li>
                     {% endfor %}
                 </ol>          
             {% endif %}

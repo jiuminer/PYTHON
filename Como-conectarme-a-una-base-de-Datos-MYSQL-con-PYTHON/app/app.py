@@ -16,7 +16,7 @@ def index():
 
     if myDB:
         cursor = myDB.cursor(dictionary=True)
-        cursor.execute("select * from trabajadores")
+        cursor.execute("select * from trabajadores WHERE sueldo>'350000'")
         registros = cursor.fetchall()
         
         return render_template('index.html', data = registros)
