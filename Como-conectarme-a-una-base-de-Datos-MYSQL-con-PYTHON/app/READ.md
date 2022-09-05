@@ -29,5 +29,8 @@ En Python, podemos usar los siguientes módulos para comunicarnos con MySQL.
 3  MySQLDB ::IMPORTANTE, Recomiendo no usar este Modulo  flask_mysqldb
 4  MySqlClient
 5  OurSQL
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 12b8a712a7988d1d5d85b70b43914fdcbacd1813
