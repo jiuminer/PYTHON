@@ -48,6 +48,7 @@ def loginUser():
                     return render_template('public/modulo_login/index.html', msjAlert = msg, typeAlert=0)
             else:
                 return render_template('public/modulo_login/index.html', msjAlert = msg, typeAlert=0)
+    return render_template('public/modulo_login/index.html', msjAlert = 'Debe iniciar sesión.', typeAlert=0, dataPaises = listaPaises())
 
 
 
@@ -152,7 +153,7 @@ def actualizarMiPerfil(id):
                 conexion_MySQLdb.commit()
                 cur.close()
                 return render_template('public/dashboard/home.html', msjAlert = msg, typeAlert=1, dataLogin = dataLoginSesion())
-                     
+        return render_template('public/dashboard/home.html', dataLogin = dataLoginSesion())             
         
         
 if __name__ == "__main__":
